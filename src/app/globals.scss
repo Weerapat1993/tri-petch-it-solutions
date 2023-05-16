@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background-secondary: #F5F4F9;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgb(var(--foreground-rgb));
+  background: --background-end-rgb
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-auto {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.font-header {
+  font-style: normal;
+  font-size: 90px;
+  line-height: 105px;
+  color: #E7E7E7;
+}
+
+.font-sub-header {
+  font-style: normal;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 1.5px;
+  color: #E7E7E7;
+}
+
+.font-sub-header-secondary {
+  font-style: normal;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 1.5px;
+  color: #C2C2C2;
+}
+
+.font-title {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 1.5px;
+  color: #000;
+}
+
+.font-description {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.text-primary {
+  color: #8F6BE8;
+}
+
+.text-gray {
+  color: #C2C2C2;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.underline {
+  width: 90%;
+  background-color: #603EBE;
+  height: 2.5px;
+}
+
+.underline-white {
+  width: 90%;
+  background-color: #FFF;
+  height: 2.5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pl-300 {
+  padding-left: 300px;
+}
+
+.bg-primary {
+  background-color: #5E3DB3;
+}
+
+.bg-secondary {
+  background-color: #F5F4F9;
+}
+
+.bg-dark {
+  background-color: #090C35;
+}
+
+.footballer {
+  position: absolute;
+  top: 35px;
+  left: 175px;
+  width: 500px;
+}
+
