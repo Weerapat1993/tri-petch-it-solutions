@@ -4,10 +4,10 @@ interface Content6Props {
 
 const Content06: React.FC<Content6Props> = ({ isDarkMode }) => {
   return (
-    <div className="p-10">
+    <div>
       <div className="row">
         <div className="col-auto mr-10 mt-10">
-          <span className="font-title">03</span>
+          <span className={isDarkMode ? 'text-primary' : 'font-title'}>03</span>
           <div className={isDarkMode ? 'underline-white' : 'underline'}></div>
         </div>
         <div className="col-1">

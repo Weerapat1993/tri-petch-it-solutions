@@ -6,7 +6,7 @@ interface Content1Props {
 
 const Content04: React.FC<Content1Props> = ({ isMobile }) => {
   return (
-    <div className="p-10">
+    <div>
       <div className="row">
         <div className="col-auto mr-10 mt-10">
           <span className="font-title">01</span>

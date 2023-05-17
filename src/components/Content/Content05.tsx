@@ -2,7 +2,7 @@
 
 const Content05 = () => {
   return (
-    <div className="p-10">
+    <div>
       <div className="row">
         <div className="col-auto mr-10 mt-10">
           <span className="font-title">02</span>

@@ -21,50 +21,50 @@ const CardSimple = () => {
         <img src="/assets/images/footballer.png" className="footballer-mobile" />
       </div>
       <div className="h-480 w-full bg-secondary pt-50">
-        <Swiper
-          // install Swiper modules
-          pagination={{
-            dynamicBullets: true,
-          }}
-          modules={[Pagination]}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-        >
-          <SwiperSlide>
-            <Content01 isMobile />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Content02 />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Content03 />
-          </SwiperSlide>
-        </Swiper>
+        <div className="p-8">
+          <Swiper
+            // install Swiper modules
+            pagination={{
+              dynamicBullets: true,
+            }}
+            modules={[Pagination]}
+          >
+            <SwiperSlide>
+              <Content01 isMobile />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Content02 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Content03 />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
       <h1 className="font-header">PLAYERS</h1>
       <div className="h-240 relative">
         <img src="/assets/images/bastketballer.png" className="basketballer-mobile" />
       </div>
       <div className="h-480 w-full bg-secondary pt-50">
-        <Swiper
-          // install Swiper modules
-          pagination={{
-            dynamicBullets: true,
-          }}
-          modules={[Pagination]}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-        >
-          <SwiperSlide>
-            <Content04 isMobile />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Content05 />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Content06 />
-          </SwiperSlide>
-        </Swiper>
+        <div className="p-8">
+          <Swiper
+            // install Swiper modules
+            pagination={{
+              dynamicBullets: true,
+            }}
+            modules={[Pagination]}
+          >
+            <SwiperSlide>
+              <Content04 isMobile />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Content05 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Content06 />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
     </div>
   )

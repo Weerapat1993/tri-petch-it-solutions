@@ -51,7 +51,7 @@ const Home = () => {
           <div className="flex bg-dark pt-50">
             <div className="flex-none w-24"></div>
             <div className="shrink w-128">
-              <Content06 />
+              <Content06 isDarkMode />
             </div>
           </div>
         </div>
