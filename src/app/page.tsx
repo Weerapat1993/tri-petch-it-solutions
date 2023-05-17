@@ -1,6 +1,12 @@
 import { Fragment } from "react"
-import CardSimple from '../components/Card/CardSimple'
+import HomePageOnMobile from '../components/Card/HomePageOnMobile'
 import { ShowDesktop, ShowMobile } from '../components/Media'
+import Content01 from "@/components/Content/Content01"
+import Content02 from "@/components/Content/Content02"
+import Content03 from "@/components/Content/Content03"
+import Content04 from "@/components/Content/Content04"
+import Content05 from "@/components/Content/Content05"
+import Content06 from "@/components/Content/Content06"
 
 const Home = () => {
   return (
@@ -12,52 +18,19 @@ const Home = () => {
           </div>
           <div className="col-1">
             <h1 className="font-header">ATHLETS</h1>
-            <div className="row">
-              <div className="col-auto mr-10 mt-10">
-                <span className="font-title">01</span>
-                <div className="underline"></div>
-              </div>
-              <div className="col-1">
-                <h2 className="font-sub-header">CONNECTION</h2>
-              </div>
-            </div>
-            <div className="font-description">
-              Connect with coaches directly, you can ping coaches to view profile.
-            </div>
+            <Content01 />
           </div>
         </div>
         <div className="row bg-secondary pt-50">
           <div className="col-1" />
           <div className="col-1">
-            <div className="row">
-              <div className="col-auto mr-10 mt-10">
-                <span className="font-title">02</span>
-                <div className="underline"></div>
-              </div>
-              <div className="col-1">
-                <h2 className="font-sub-header-secondary">COLLABORATION</h2>
-              </div>
-            </div>
-            <div className="font-description">
-            Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.
-            </div>
+            <Content02 />
           </div>
         </div>
         <div className="row bg-primary pt-50">
           <div className="col-1" />
           <div className="col-1">
-            <div className="row">
-              <div className="col-auto mr-10 mt-10">
-                <span className="font-title">03</span>
-                <div className="underline-white"></div>
-              </div>
-              <div className="col-1">
-                <h2 className="font-sub-header-secondary">GROWTH</h2>
-              </div>
-            </div>
-            <div className="font-description text-white">
-            Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.
-            </div>
+            <Content03 isDarkMode />
           </div>
         </div>
         <div className="relative">
@@ -65,59 +38,26 @@ const Home = () => {
           <div className="flex pt-50">
             <div className="flex-none w-24"></div>
             <div className="shrink w-128">
-              <h1 className="font-header">PLAYERS</h1>
-              <div className="row">
-                <div className="col-auto mr-10 mt-10">
-                  <span className="font-title">01</span>
-                  <div className="underline"></div>
-                </div>
-                <div className="col-1">
-                  <h2 className="font-sub-header">CONNECTION</h2>
-                </div>
-              </div>
-              <div className="font-description">
-              Connect with talented athlete directly, you can watch their skills through video showreels directly from Surface 1.
-              </div>
+              <h1 className="font-header">ATHLETS</h1>
+              <Content04 />
             </div>
           </div>
           <div className="flex bg-secondary pt-50">
             <div className="flex-none w-24"></div>
             <div className="shrink w-128">
-              <div className="row">
-                <div className="col-auto mr-10 mt-10">
-                  <span className="font-title">02</span>
-                  <div className="underline"></div>
-                </div>
-                <div className="col-1">
-                  <h2 className="font-sub-header text-gray">COLLABORATION</h2>
-                </div>
-              </div>
-              <div className="font-description">
-              Work with recruiter to increase your chances of finding talented athlete.
-              </div>
+              <Content05 />
             </div>
           </div>
           <div className="flex bg-dark pt-50">
             <div className="flex-none w-24"></div>
             <div className="shrink w-128">
-              <div className="row">
-                <div className="col-auto mr-10 mt-10">
-                  <span className="font-title text-primary">03</span>
-                  <div className="underline-white"></div>
-                </div>
-                <div className="col-1">
-                  <h2 className="font-sub-header text-gray">GROWTH</h2>
-                </div>
-              </div>
-              <div className="font-description text-white">
-                Save your time, recruit proper athlets for your team.
-              </div>
+              <Content06 />
             </div>
           </div>
         </div>
       </ShowDesktop>
       <ShowMobile>
-        <CardSimple />
+        <HomePageOnMobile />
       </ShowMobile>
     </Fragment>
   )

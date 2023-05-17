@@ -8,6 +8,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --background-secondary: #F5F4F9;
+  --swiper-theme-color: #603EBE;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -46,6 +47,17 @@ body {
   font-size: 90px;
   line-height: 105px;
   color: #E7E7E7;
+}
+
+@media (min-width: 360px) {
+  .font-header {
+    font-style: normal;
+    font-size: 56px;
+    line-height: 70px;
+    color: #E7E7E7;
+    margin: 10px 20px;
+  }
+  
 }
 
 .font-sub-header {
