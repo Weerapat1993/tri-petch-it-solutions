@@ -15,7 +15,7 @@ const Content03: React.FC<Content3Props> = ({ isDarkMode }) => {
         </div>
       </div>
       <div className={`font-description ${isDarkMode ? 'text-white' : ''}`}>
-        Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.
+      Resources and tools for you to get better as a student Athelte. Access to training classes, tutor sessions, etc 
       </div>
     </div>
   )
