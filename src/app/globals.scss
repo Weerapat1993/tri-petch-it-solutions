@@ -42,6 +42,12 @@ body {
   flex: 1;
 }
 
+.col-5 {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
 .font-header {
   font-style: normal;
   font-size: 90px;
@@ -57,7 +63,6 @@ body {
     color: #E7E7E7;
     margin: 10px 20px;
   }
-  
 }
 
 .font-sub-header {
@@ -159,5 +164,18 @@ body {
   width: 800px;
 }
 
-
+@media (max-width: 768px) and (min-width: 360px) {
+  .footballer {
+    position: absolute;
+    top: 35px;
+    left: -65px;
+    width: 500px;
+  }
+  .bastketballer {
+    position: absolute;
+    top: 0px;
+    right: -275px;
+    width: 800px;
+  }
+}
 

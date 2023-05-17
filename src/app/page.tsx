@@ -33,25 +33,30 @@ const Home = () => {
             <Content03 isDarkMode />
           </div>
         </div>
-        <div className="relative">
-          <img src="/assets/images/bastketballer.png" className="bastketballer" />
-          <div className="flex pt-50">
-            <div className="flex-none w-24"></div>
-            <div className="shrink w-128">
-              <h1 className="font-header">ATHLETS</h1>
-              <Content04 />
+        <div className="row relative">
+          <div className="col-1">
+            <img src="/assets/images/bastketballer.png" className="bastketballer" />
+            <div className="flex pt-50">
+              <div className="col-1" />
+              <div className="col-5">
+                <h1 className="font-header">PLAYERS</h1>
+                <Content04 />
+              </div>
+              <div className="col-5" />
             </div>
-          </div>
-          <div className="flex bg-secondary pt-50">
-            <div className="flex-none w-24"></div>
-            <div className="shrink w-128">
-              <Content05 />
+            <div className="row bg-secondary pt-50">
+              <div className="col-1" />
+              <div className="col-5">
+                <Content05 />
+              </div>
+              <div className="col-5" />
             </div>
-          </div>
-          <div className="flex bg-dark pt-50">
-            <div className="flex-none w-24"></div>
-            <div className="shrink w-128">
-              <Content06 isDarkMode />
+            <div className="row bg-dark pt-50">
+              <div className="col-1" />
+              <div className="col-5">
+                <Content06 isDarkMode />
+              </div>
+              <div className="col-5" />
             </div>
           </div>
         </div>
