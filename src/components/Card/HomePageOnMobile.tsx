@@ -21,50 +21,58 @@ const CardSimple = () => {
         <img src="/assets/images/footballer.png" className="footballer-mobile" />
       </div>
       <div className="h-480 w-full bg-secondary pt-50">
-        <div className="p-8">
-          <Swiper
-            // install Swiper modules
-            pagination={{
-              dynamicBullets: true,
-            }}
-            modules={[Pagination]}
-          >
-            <SwiperSlide>
+        <Swiper
+          // install Swiper modules
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[Pagination]}
+        >
+          <SwiperSlide>
+            <div className="p-8">
               <Content01 isMobile />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-8">
               <Content02 />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-8">
               <Content03 />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
       <h1 className="font-header">PLAYERS</h1>
       <div className="h-240 relative">
         <img src="/assets/images/bastketballer.png" className="basketballer-mobile" />
       </div>
-      <div className="h-480 w-full bg-secondary pt-50">
-        <div className="p-8">
-          <Swiper
-            // install Swiper modules
-            pagination={{
-              dynamicBullets: true,
-            }}
-            modules={[Pagination]}
-          >
-            <SwiperSlide>
+      <div className="h-360 w-full bg-secondary pt-50">
+        <Swiper
+          // install Swiper modules
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[Pagination]}
+        >
+          <SwiperSlide>
+            <div className="p-8">
               <Content04 isMobile />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-8">
               <Content05 />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="p-8">
               <Content06 />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   )
