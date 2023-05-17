@@ -7,7 +7,7 @@ interface ShowDesktopProps {
 
 const ShowDesktop: React.FC<ShowDesktopProps> = ({ children, className }) => {
   return (
-    <div className={`max-sm:hidden ${className}`}>
+    <div className={`max-sm:hidden overflow-hidden ${className}`}>
       {children}
     </div>
   )

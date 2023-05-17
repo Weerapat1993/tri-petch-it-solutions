@@ -21,6 +21,10 @@
   left: 0px;
   margin: 0 auto;
   height: 500px;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .basketballer-mobile {
@@ -29,4 +33,8 @@
   left: 0px;
   margin: 0 auto;
   height: 300px;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
