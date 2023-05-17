@@ -53,6 +53,10 @@ body {
   font-size: 90px;
   line-height: 105px;
   color: #E7E7E7;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 @media (min-width: 360px) {
@@ -62,6 +66,10 @@ body {
     line-height: 70px;
     color: #E7E7E7;
     margin: 10px 20px;
+    animation: fadein 1s;
+    transition: all 1s;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
   }
 }
 
@@ -71,6 +79,10 @@ body {
   line-height: 42px;
   letter-spacing: 1.5px;
   color: #E7E7E7;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .font-sub-header-secondary {
@@ -79,6 +91,10 @@ body {
   line-height: 42px;
   letter-spacing: 1.5px;
   color: #C2C2C2;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .font-title {
@@ -88,6 +104,10 @@ body {
   /* identical to box height */
   letter-spacing: 1.5px;
   color: #000;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .font-description {
@@ -96,6 +116,10 @@ body {
   line-height: 28px;
   margin-top: 30px;
   margin-bottom: 50px;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .text-primary {
@@ -114,12 +138,20 @@ body {
   width: 90%;
   background-color: #603EBE;
   height: 2.5px;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .underline-white {
   width: 90%;
   background-color: #FFF;
   height: 2.5px;
+  animation: fadein 1s;
+  transition: all 1s;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
 }
 
 .mt-10 {
